@@ -4,14 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Movie API</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Test Page</h1>
+    <div class="container">
+        <h1 class="text-center text-white">Searh Your Favourtie Movie</h1>
+    </div>
+    <header class="p-4">
+        <div class="container">
+            <div class="row">
+                <div class="search-box d-flex justify-content-center">
+                    <form id="form">
+                        <input type="text" class="search p-2" id="search" placeholder="Enter the Keyword">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    
+    <article id="article">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="movie">
+                        <img src="/img/movie-1.jpg" class="img-fluid rounded" alt="">
+                        <div class="movie-info">
+                            <h3>Movie Title</h3>
+                            <span class="green">9.8</span>
+                        </div>
+                        <div class="overview">
+                            <h3>Overview</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus temporibus repellendus minima praesentium fugit ipsa cumque alias nam odio.</p>
+                        </div>
+                </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="movie">
+                        <img src="/img/movie-1.jpg" class="img-fluid rounded" alt="">
+                        <div class="movie-info">
+                            <h3>Movie Title</h3>
+                            <span class="red">3.8</span>
+                        </div>
+                        <div class="overview">
+                            <h3>Overview</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus temporibus repellendus minima praesentium fugit ipsa cumque alias nam odio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="movie">
+                        <img src="/img/movie-1.jpg" class="img-fluid rounded" alt="">
+                        <div class="movie-info">
+                            <h3>Movie Title</h3>
+                            <span class="yellow">9.8</span>
+                        </div>
+                        <div class="overview">
+                            <h3>Overview</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus temporibus repellendus minima praesentium fugit ipsa cumque alias nam odio.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-3">
+                    <div class="movie">
+                        <img src="/img/movie-1.jpg" class="img-fluid rounded" alt="">
+                        <div class="movie-info">
+                            <h3>Movie Title</h3>
+                            <span class="green">9.8</span>
+                        </div>
+                        <div class="overview">
+                            <h3>Overview</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus temporibus repellendus minima praesentium fugit ipsa cumque alias nam odio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

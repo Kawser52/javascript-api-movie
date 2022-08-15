@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@400;500;600;700;800&family=Staatliches&family=Tiro+Devanagari+Sanskrit&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --primary-color: rgb(34, 8, 82);
+    --secondary-color:rgb(78, 0, 138);
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    margin: 0;
+}
+.search{
+    border-radius: 50px;
+    border: 1px solid rgb(49, 4, 121);
+    font-family: "poppins", sans-serif;
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    color: rgb(103, 103, 255);
+
+}
+.search::placeholder{
+ color: rgb(174, 172, 170);
+ text-align: center;
+}
+.search:focus{
+    outline: none;  
+}
+.movie{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 3px;
+}
+.movie-info{
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    line-height: .5px;
+    padding: 10px 16px 16px;
+    color: white;
+    font-size: 14px;
+}
+.movie-info h3{
+    margin-top: 0;
+    font-size: 25px;
+}
+.movie-info span{
+   background-color: var(--primary-color); 
+   padding: 12px 15px;
+   border-radius: 3px;
+   font-weight: bold;
+
+}
+.movie-info span.green{
+ color:aquamarine;
+}
+.movie-info span.red{
+    color:rgb(161, 1, 15);
+}
+.movie-info span.yellow{
+    color:blanchedalmond
+}
+.overview{
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: 0.5s ease-in-out;
+}
+.movie:hover .overview{
+    transform: translateY(0); 
+}
