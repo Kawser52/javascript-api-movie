@@ -63,14 +63,15 @@ body{
  color:aquamarine;
 }
 .movie-info span.red{
-    color:rgb(161, 1, 15);
+    color:rgb(214, 16, 33);
 }
 .movie-info span.yellow{
     color:blanchedalmond
 }
 .overview{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.721);
     padding: 24px;
+    font-family: "Poppins";
     position:absolute;
     left: 0;
     right: 0;
